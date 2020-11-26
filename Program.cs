@@ -26,17 +26,17 @@ namespace Exercicio3_Fixacao_Repeticao
                 
                 if(nome == nomes[i])
                 {
-                    Console.WriteLine("Nome encontrado !");   
+                    Console.WriteLine("Nome encontrado !"); 
+                    return;  
                 }
-                
-               
+                              
 
-                if(nome != nomes[i]) 
+                else
                 {
                     Console.WriteLine("Nome não encontrado !");
-                    Console.ReadLine();
                 }
-                          
+
+                         
             
             }
 
